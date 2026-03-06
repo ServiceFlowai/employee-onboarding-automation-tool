@@ -1,0 +1,1 @@
+import React from 'react';const TrainingTracking: React.FC = () => {return (<div className="p-6"><h1 className="text-2xl font-bold mb-4">Training Tracking</h1><p>Track the completion of training modules.</p></div>);};export default TrainingTracking;

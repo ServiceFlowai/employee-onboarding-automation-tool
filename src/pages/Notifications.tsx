@@ -1,0 +1,1 @@
+import React from 'react';const Notifications: React.FC = () => {return (<div className="p-6"><h1 className="text-2xl font-bold mb-4">Notifications</h1><p>Manage notifications for paperwork and training milestones.</p></div>);};export default Notifications;

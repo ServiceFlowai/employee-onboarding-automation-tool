@@ -1,8 +1,1 @@
-export default function App() {
-  return (
-    <div style={{ fontFamily: 'system-ui', padding: '2rem', maxWidth: 800, margin: '0 auto' }}>
-      <h1>Employee Onboarding Automation Tool</h1>
-      <p>Project scaffold ready. Start building!</p>
-    </div>
-  );
-}
+import React from 'react';import { Routes, Route } from 'react-router-dom';import Dashboard from './pages/Dashboard';import WorkflowOrchestrator from './pages/WorkflowOrchestrator';import PaperworkAutomation from './pages/PaperworkAutomation';import TrainingAssignment from './pages/TrainingAssignment';import TrainingTracking from './pages/TrainingTracking';import Notifications from './pages/Notifications';import PerformanceMetrics from './pages/PerformanceMetrics';import Navigation from './components/Navigation';const App: React.FC = () => {return (<div className="min-h-screen bg-gray-100"><Navigation /><Routes><Route path="/" element={<Dashboard />} /><Route path="/workflow-orchestrator" element={<WorkflowOrchestrator />} /><Route path="/paperwork-automation" element={<PaperworkAutomation />} /><Route path="/training-assignment" element={<TrainingAssignment />} /><Route path="/training-tracking" element={<TrainingTracking />} /><Route path="/notifications" element={<Notifications />} /><Route path="/performance-metrics" element={<PerformanceMetrics />} /></Routes></div>);};export default App;
