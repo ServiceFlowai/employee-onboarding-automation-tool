@@ -1,0 +1,1 @@
+import React from 'react';const PaperworkAutomation: React.FC = () => {return (<div className="p-6"><h1 className="text-2xl font-bold mb-4">Paperwork Automation</h1><p>Automate the generation and signing of new hire paperwork.</p></div>);};export default PaperworkAutomation;

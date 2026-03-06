@@ -1,0 +1,1 @@
+import React from 'react';const PerformanceMetrics: React.FC = () => {return (<div className="p-6"><h1 className="text-2xl font-bold mb-4">Performance Metrics</h1><p>View reports on onboarding performance metrics.</p></div>);};export default PerformanceMetrics;
